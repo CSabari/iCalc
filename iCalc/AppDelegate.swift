@@ -2,13 +2,14 @@
 //  AppDelegate.swift
 //  iCalc
 //
-//  Created by TRESELLE on 14/03/18.
+//  Created by SABARI on 14/03/18.
 //  Copyright © 2018 com.ios.sabari. All rights reserved.
 //
 
 import UIKit
 import CoreData
 
+@available(iOS 10.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -46,6 +47,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
+    @available(iOS 10.0, *)
+    @available(iOS 10.0, *)
+    @available(iOS 10.0, *)
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
